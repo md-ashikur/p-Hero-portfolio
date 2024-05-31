@@ -1,16 +1,19 @@
 :root {
     --main-color: #fd6f00;
     --secondary-color: #000000;
-    --body-padding: 2rem 10rem 5rem 10rem;
+    --body-padding: 5rem 10rem 5rem 10rem;
   }
 
-
+*{
+    color: #ffffff;
+}
 body {
   background-color: #1e1e1e;
   color: #ffffff;
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -27,7 +30,7 @@ body {
 }
 
  a {
- 
+
   text-decoration: none;
   padding: 10px 14px;
 }
@@ -66,13 +69,44 @@ section{
    padding: 20px 0;
  
 }
+/* skill-marquee================== */
+.skill-marquee{
+    background-color: var(--secondary-color);
+    height: 147px;
+    width: 110%;
+    display: flex;
+    margin-left: -2%;
+    align-items: center;
+    transform: rotate(-6deg);
+}
+.marquee{
+    overflow-x: hidden;
+    width: 100vw;
+  max-width: 100%;
+  
+}
+.marquee-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 32px;
+    animation: marquee 5s linear infinite;
+}
+.marquee-content img{
+   width: 34px;
+   height: 34px;
+}
+@keyframes marquee {
+    from { transform: translateX(0%); }
+    to { transform: translateX(50%); }
+  }
 
 /* about------------- */
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-  
+  margin-top: 10rem;
 
 }
 .about-text p{
@@ -91,17 +125,19 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-   
+   background-image: url(./images/BG.png);
 }
 h2{
     font-size: 32px;
     text-transform: uppercase;
+    margin: 0;
 }
 .ex-left-part h1{
  margin: 10px 0 20px 0;
 }
  p{
 line-height: 28px;
+margin: 0;
 }
 .ex-right-part{
     padding-left: 5rem;
@@ -109,7 +145,7 @@ line-height: 28px;
 .ex-date{
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 2px 0;
 }
 .date{
    font-weight: 700;
