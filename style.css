@@ -1,0 +1,146 @@
+:root {
+    --main-color: #fd6f00;
+    --secondary-color: #000000;
+    --body-padding: 2rem 10rem 5rem 10rem;
+  }
+
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+}
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 21px;
+}
+
+ a {
+ 
+  text-decoration: none;
+  padding: 10px 14px;
+}
+
+button {
+  width: 188px;
+  height: 52px;
+  background-color: var(--main-color);
+
+  font-size: 21px;
+}
+
+section{
+    padding: var(--body-padding);
+   
+}
+/* section1------------ */
+.section1{
+    display: grid;
+    grid-column: 2;
+    gap: 10px;
+   
+    
+}
+ h1{
+   font-size: 40px;
+   margin: 0;
+   color: #ffffff;
+    
+}
+.skill{
+    display: flex;
+    font-size: 24px;
+    gap: 10px;
+    font-weight: 300;
+   padding: 20px 0;
+ 
+}
+
+/* about------------- */
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  
+
+}
+.about-text p{
+  
+    margin: 10px 0;
+
+}
+.rating{
+    text-align: right;
+
+}
+
+
+/* experience------------- */
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+}
+h2{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.ex-left-part h1{
+ margin: 10px 0 20px 0;
+}
+ p{
+line-height: 28px;
+}
+.ex-right-part{
+    padding-left: 5rem;
+}
+.ex-date{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.date{
+   font-weight: 700;
+   font-style: italic;
+}
+hr{
+    margin: 20px 0;
+    opacity: 20%;
+}
+
+
+/* award----------------- */
+.award-sec{
+text-align: center;
+}
+.award-card{
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 3rem ;
+    margin: 20px 0;
+
+}
+.award-card div{
+   grid-area: 1/span 2;
+
+}
+.award-card h3{
+ 
+text-align: right;
+}
+.award-title{
+    font-size: 24px;
+}
