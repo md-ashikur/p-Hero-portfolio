@@ -430,7 +430,7 @@ footer h1 {
   }
   .portfolio-row {
     grid-template-columns: 1fr;
-    margin: 0;
+    margin: 20px 0;
   }
   .row-content {
     padding: 0px;
@@ -443,6 +443,7 @@ footer h1 {
     height: auto;
     margin-top: 10px;
   }
+ 
   .form-body {
     padding: 3rem 28px;
   }
