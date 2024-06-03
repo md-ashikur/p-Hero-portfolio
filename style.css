@@ -374,7 +374,7 @@ footer h1 {
     grid-template-columns: 1fr;
   }
   .skill {
-    font-size: 20px;
+    font-size: 18px;
   }
   .ashik {
     margin: 20px 0;
@@ -383,7 +383,7 @@ footer h1 {
   }
   .marque-mob{
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     overflow-x: hidden;
   } 
   
@@ -391,7 +391,7 @@ footer h1 {
     transform: rotate(-4deg);
     width: 110%;
     margin-left: -1%;
-    margin-top: 5%;
+    margin-top: 8%;
   }
   .about {
     grid-template-columns: 1fr;
