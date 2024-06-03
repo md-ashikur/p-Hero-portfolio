@@ -381,11 +381,17 @@ footer h1 {
     width: 350px;
     height: 350px;
   }
-
+  .marque-mob{
+    width: 100vw;
+    height: 20vh;
+    overflow-x: hidden;
+  } 
+  
   .skill-marquee {
     transform: rotate(-4deg);
-    width: 100%;
-    margin-left: 1%;
+    width: 110%;
+    margin-left: -1%;
+    margin-top: 5%;
   }
   .about {
     grid-template-columns: 1fr;
@@ -397,8 +403,26 @@ footer h1 {
   .ex-right-part {
     padding-left: 0;
   }
+
+  .award-card {
+    grid-template-columns: 1fr;
+    padding: 2rem 28px;
+  }
+  .portfolio {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-nav {
+    flex-direction: column;
+    margin: 20px 0;
+
+    width: 170px;
+  }
   .portfolio-nav a {
     font-size: 16px;
+    text-align: center;
   }
   .portfolio-row {
     grid-template-columns: 1fr;
@@ -416,11 +440,9 @@ footer h1 {
     margin-top: 10px;
   }
   .form-body {
-  
     padding: 3rem 28px;
   }
   footer {
-    
     padding: 28px;
   }
   .footer-nav {
