@@ -125,6 +125,8 @@ h1 {
   width: 110%;
   display: flex;
   margin-left: -2%;
+  margin-top: -10%;
+  
   align-items: center;
   transform: rotate(-6deg);
 }
@@ -157,7 +159,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 .about-text p {
   margin: 10px 0;
@@ -385,6 +387,7 @@ footer h1 {
     width: 100vw;
     height: 25vh;
     overflow-x: hidden;
+    margin-top: -30%;
   } 
   
   .skill-marquee {
@@ -395,6 +398,7 @@ footer h1 {
   }
   .about {
     grid-template-columns: 1fr;
+    margin-top: 20px;
   }
 
   .experience {
